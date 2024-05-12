@@ -1,0 +1,8 @@
+import math
+side = 30
+another_side = 60
+
+radian = math.asin(side / another_side)
+degree = math.degrees(radian)
+print(f"對邊:{side},斜邊:{another_side},角度是:{round(degree,ndigits=2)}")
+
